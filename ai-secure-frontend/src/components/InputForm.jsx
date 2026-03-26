@@ -1,6 +1,21 @@
 import React, { useState, useRef } from "react";
 import axios from "axios";
 
+const handleSubmit = async () => {
+  try {
+    const response = await axios.post(
+      `${import.meta.env.VITE_API_URL}/api/analyze`,
+      {
+        text: inputText, // or whatever your payload is
+      }
+    );
+
+    console.log(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+};
+
 const BASE_URL = "http://127.0.0.1:8000";
 
 const InputForm = ({ setResult, setLoading, loading }) => {
