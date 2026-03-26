@@ -252,6 +252,11 @@ The demo showcases:
 Frontend: http://localhost:5173  
 Backend: http://localhost:8000
 
+## Deploy
+
+Frontend: https://ai-secure-data-intelligence-platfor-lilac.vercel.app/
+Backend: https://ai-secure-data-intelligence-platform-5.onrender.com
+
 ## UI Preview
 
 ### Dashboard
