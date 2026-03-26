@@ -254,8 +254,8 @@ Backend: http://localhost:8000
 
 ## Deploy
 
-Frontend: https://ai-secure-data-intelligence-platfor-lilac.vercel.app/
-Backend: https://ai-secure-data-intelligence-platform-5.onrender.com
+Frontend: https://ai-secure-data-intelligence-platfor-jet.vercel.app/
+Backend: https://ai-secure-data-intelligence-platform-6.onrender.com/
 
 ## UI Preview
 
